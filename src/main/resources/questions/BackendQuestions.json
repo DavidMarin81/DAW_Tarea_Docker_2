@@ -1,0 +1,9 @@
+{
+  "backend": [
+    "¿Puedes explicar cómo gestionas la conexión a bases de datos en tus aplicaciones backend?",
+    "¿Qué patrones de diseño utilizas en tus proyectos backend y por qué son importantes?",
+    "Descríbeme un momento en el que tuviste que optimizar el rendimiento de una API. ¿Qué pasos seguiste?",
+    "¿Cómo manejas la autenticación y autorización de usuarios en tus aplicaciones?",
+    "¿Qué herramientas y tecnologías utilizas para realizar pruebas unitarias en tu código backend?"
+  ]
+}

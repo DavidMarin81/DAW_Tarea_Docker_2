@@ -1,0 +1,14 @@
+{
+  "prompts": [
+    "Eres un reclutador y estás haciendo una entrevista para un puesto de {role} en el área de {tematica} a un candidato {experience}. ¿Qué pregunta le harías?",
+    "Eres un reclutador experimentado. ¿Qué pregunta plantearías a un candidato {experience} para un puesto de {role} en el tema de {tematica}?",
+    "Como reclutador con experiencia, ¿qué pregunta le harías a un postulante {experience} para un trabajo de {role} relacionado con la tematica {tematica}?",
+    "Si fueras un reclutador en una entrevista para un puesto de {role} {experience} en el área de {tematica}, ¿cuál sería una pregunta que consideras clave?",
+    "Eres un reclutador experimentado. ¿Qué pregunta harías a un candidato {experience} que está solicitando un puesto en {role} sobre la tematica {tematica}?",
+    "Simula que eres un reclutador que está entrevistando a un candidato {experience} para un puesto de {role} en el área de {tematica}. ¿Qué pregunta le harías?",
+    "Imagina que eres un reclutador buscando un desarrollador {role} {experience} con experiencia en {tematica}. ¿Cuál sería tu primera pregunta para el candidato?",
+    "Como un reclutador con experiencia, ¿qué pregunta considerarías importante para un puesto de {role} {experience} en el contexto de {tematica}?",
+    "Supongamos que estás llevando a cabo entrevistas para un puesto de {role} {experience} relacionado con la tematica {tematica}. ¿Qué pregunta le harías al candidato?",
+    "Eres un reclutador experimentado y buscas un desarrollador {role} {experience} especializado en {tematica}. ¿Cuál sería una pregunta que le harías en la entrevista?"
+  ]
+}
