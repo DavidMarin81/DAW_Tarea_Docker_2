@@ -1,0 +1,10 @@
+com\example\demo\DemoApplication.class
+com\example\demo\Configuration\CorsConfiguration.class
+com\example\demo\model\Chat.class
+com\example\demo\Controller\QuestionController.class
+com\example\demo\Repository\QuestionRepository.class
+com\example\demo\Utils\FileLoader.class
+com\example\demo\service\ChatService.class
+com\example\demo\model\Question.class
+com\example\demo\service\QuestionService.class
+com\example\demo\service\CohereService.class
