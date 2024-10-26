@@ -15,18 +15,9 @@
 - If you want to contribute, please create a new branch and submit a *pull request*.
 ---
 ## EndPoints
-- **Post** (*/chat/ask*)
-    - 
+- **Post** (*/question*)
+    - ![image](https://github.com/user-attachments/assets/4615a2b2-9250-457a-98a4-045f8912a2bb)
     - Include the data in the POST request:
       - "role" (UX/UI designer, frontend, backend)
       - "experience" (trainer, junior, semi-senior, senior, lead)
-    - Get the question
-    - Example:
-        - ![alt text](ReadMe_Images/image-2.png)
-        - ![alt text](ReadMe_Images/image-7.png)
-- **Post** (*/chat/feedback*)
-  - 
-  - Enter your response to receive feedback
-  - Example:
-    - ![alt text](ReadMe_Images/image-6.png)
-    - ![alt text](ReadMe_Images/image-7.png)
+      - "theme"

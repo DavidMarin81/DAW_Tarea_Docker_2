@@ -71,6 +71,35 @@ public class CohereService {
         }
     }
 
+    public String getIAFeedback(String userResponse, Question question) {
+        String userResponseLimited  = "";
+        if(userResponse.length() > 120) {
+            userResponseLimited = userResponse.substring(0, 120);
+        } else {
+            userResponseLimited = userResponse;
+        }
+        try {
+            NonStreamedChatResponse response = cohere.chat(
+                    ChatRequest.builder()
+                            .message("Dame feedback sobre esta respuesta: " + userResponseLimited)
+                            .chatHistory(
+                                    List.of(
+                                            Message.user(ChatMessage.builder().message("Es una respuesta para una entrevista de trabajo en el sector tecnologico").build()),
+                                            Message.user(ChatMessage.builder().message("Respuesta de un candidato a un puesto de trabajo para un puesto tecnologico").build()),
+                                            Message.user(ChatMessage.builder().message("La finalidad es poder dar feedback al entrevistado sobre su respuesta").build())
+                                    )
+                            )
+                            .build()
+            );
+
+            return response.getText();
+
+        } catch (Exception e) {
+            // TODO - Recoger pregunta y comentario de la base de datos
+            return null;
+        }
+    }
+
     private Question splitResponse(Question questionObj, String response) {
         // Buscar el índice del primer signo de apertura '¿'
         int firstQuestionMarkIndex = response.indexOf("¿");

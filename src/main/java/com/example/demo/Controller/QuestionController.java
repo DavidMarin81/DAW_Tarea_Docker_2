@@ -23,4 +23,9 @@ public class QuestionController {
         return questionService.showQuestion(question);
     }
 
+    @PostMapping("/feedback")
+    public String getIAFeedback (@RequestParam String userResponse, @RequestBody Question question) {
+        return questionService.getIAFeedback(userResponse, question);
+    }
+
 }

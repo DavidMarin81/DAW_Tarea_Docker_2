@@ -37,6 +37,10 @@ public class QuestionService {
         return question;
     }
 
+    public String getIAFeedback(String userResponse, Question question) {
+        return cohereService.getIAFeedback(userResponse, question);
+    }
+
     public Question avoidEmptyFields(Question question) {
         if(question.getRole().isEmpty()) {
             question.setRole(defaultRole);
