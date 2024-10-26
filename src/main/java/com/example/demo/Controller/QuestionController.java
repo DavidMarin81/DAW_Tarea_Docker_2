@@ -28,4 +28,9 @@ public class QuestionController {
         return questionService.getIAFeedback(userResponse, question);
     }
 
+    @GetMapping
+    public String checkApp () {
+        return "OK";
+    }
+
 }
